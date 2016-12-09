@@ -4,6 +4,7 @@ module Archon
   module Nodes
     extend ActiveSupport::Autoload
 
+    autoload :Coalesce
     autoload :PopulatedRecordset
   end
 end
